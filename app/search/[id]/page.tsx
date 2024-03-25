@@ -17,7 +17,7 @@ const DocsIdPage = ({ params}:{params:any}) => {
       <div>
         <ul className="max-w-[66rem] m-auto">
           {filteredBlogs.map((blog) => (
-            <a key={blog.id} href={`../article/${blog.id}`}>
+            <a key={blog.id} href={`./article/${blog.id}`}>
             <div>
               <div className="relative overflow-hidden w-[600px] flex justify-center">
                 <img
